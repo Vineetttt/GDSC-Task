@@ -15,7 +15,7 @@ function Quiz({score,checkAnswer,data:{question,correct_answer,answers}}){
                 )
             })}
         </div>
-        <p className="scr">Score: &nbsp;<span dangerouslySetInnerHTML={{__html:score}}/></p>
+        <p className="button score">Score:<span dangerouslySetInnerHTML={{__html:score}}/></p>
         </>
     )
 }
